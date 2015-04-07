@@ -1,0 +1,693 @@
+/*
+	Theme name:
+	Author: 
+	Author Uri: http://www.redsand.vn/
+	Vertion: 1.0
+*/
+
+@import "font/stylesheet.css";
+/*---------Body---------*/
+body{
+	font-family: "myriadproregular";
+	color: #2A2A2A;
+	background: #fff;
+	border-top: 4px solid #0E529B;
+	background: url("images/bg.png") no-repeat #fff center top;
+}
+
+#wrapper
+{
+	width: 960px;
+	margin: 0px auto;
+}
+
+/*---------Header---------*/
+.logo{
+    height: 130px;
+    width: 219px;
+}
+
+.frm{
+	position: relative;
+	margin-top: 20px;	
+}
+
+.frm input[type="text"]{
+	background: none repeat scroll 0 0 #E0E0E0;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    color: #656565;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 24px 5px 9px;
+    width: 142px;
+}
+
+.frm input[type="submit"]{
+	background: url("images/search_bg.png") repeat scroll left top transparent;
+    border: 0 none;
+    display: block;
+    height: 20px;
+    left: 152px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999em;
+    top: 1px;
+    width: 22px;
+	cursor: pointer;
+}
+
+.control{
+	width: 738px;
+}
+
+.social{
+	margin-left: 19px;
+	margin-bottom: 16px;
+}
+
+.social a{
+	display: inline-block;
+    height: 28px;
+    margin-right: 5px;
+    width: 29px;
+	margin-top: 15px;
+	background-position: 0px 0px;
+}
+
+.social a:hover{
+	background-position: 0px -28px;
+}
+
+.fb{
+	background-image: url("images/social_fb.png");
+}
+
+.tw{
+	background-image: url("images/social_twitter.png");
+}
+
+.rss{
+	background-image: url("images/social_rss.png");
+}
+
+.menu{
+	background: url("images/menu_bg.png") repeat-x scroll left top transparent;
+    border-left: 1px solid #055EBD;
+    display: block;
+    float: left;
+    height: 35px;
+    margin-left: 14px;
+    width: 724px;
+	margin-bottom: 55px;
+	position: relative;
+	z-index: 99;
+}
+
+
+.menu li {
+    line-height: 18px;
+	margin-bottom: 12px;
+}
+
+.menu li a{
+	border-left: 1px dotted #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 8px 0;
+    padding: 0 12px;
+    text-transform: uppercase;
+}
+
+.menu li:first-child a{
+	border: none;
+}
+
+.menu li:hover a, .menu li a:hover{
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+.menu .activer a{
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+.font-museo300{
+	font-family: "museoslab300";
+}
+
+.font-museo500{
+	font-family: "museoslab500";
+}
+
+.color-blue{
+	color: #0E529B !important;
+}
+
+.color-green{
+	color: #368619;
+}
+
+.color-red{
+	color: #FF0000;
+}
+
+.content {
+    padding-left: 10px;
+}
+
+.content h1{
+	font-size: 52px;
+	margin-top: 170px;
+}
+
+.content p{
+	font-family: "Georgia";
+	font-style: italic;
+	font-size: 20px;
+	line-height: 1.5em;
+	width: 670px;
+	margin-bottom: 20px;
+}
+
+.content p a{
+	color: #0C57A0;
+	margin-left: 220px;
+}
+
+.content a:hover{
+	text-decoration: underline;
+}
+
+
+/*---------Content---------*/
+#content{
+	position: relative;
+	background: none repeat scroll 0 0 #FFFFFF;
+	padding: 20px 20px 48px;
+	opacity: 0.9;
+}
+
+.home-slider:after{
+	background: url("images/quotation_bg.png") no-repeat scroll left top transparent;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: -42px;
+    width: 305px;
+}
+
+.home-slider{
+	background: url("images/quotation_btm_bg.png") no-repeat scroll left bottom #0E529B;
+	margin-top: 29px;
+	min-height: 200px;
+	padding: 0 30px 115px 20px;
+	position: relative;
+	width: 255px;
+	right: -50px;
+	top: -20px;
+}
+
+.home-slider h2{
+	border-bottom: 1px dotted white;
+    color: #FFFFFF;
+    font-family: "museoslab500","Georgia","Times New Roman",serif;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: -10px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -20px;
+    z-index: 999;
+}
+
+.email{
+	margin-bottom: 20px;
+}
+
+.email input[type="text"]{
+	-moz-box-sizing: border-box;
+    color: #929292;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 0 0;
+	display: block;
+	margin: 0 0 20px;
+    max-width: 100%;
+    outline: medium none;
+    padding: 6px 4px
+}
+
+.email input[type="submit"]{
+	background: url("images/btn_submit_inquiry.png") no-repeat scroll left bottom transparent;
+    border: 0 none;
+    box-shadow: none;
+    display: block;
+    height: 41px;
+    position: relative;
+    text-indent: -9999em;
+    top: 120px;
+    width: 255px;
+}
+
+.email input[type="submit"]:hover{
+	background: url("images/btn_submit_inquiry_hover.png") repeat scroll 0 0 transparent;
+}
+
+.home-content{
+	padding-right: 20px;
+    width: 569px;
+	margin-top: 85px;
+}
+
+.home-content h2{
+	font-size: 45px;
+	font-family: "museoslab300","Georgia","Times New Roman",serif;	
+	color: #3D3D3D;
+	line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.home-content h2 span{
+	font-family: "museoslab500","Georgia","Times New Roman",serif;
+	color: #368619;
+}
+
+.structured-water{
+	position: relative;
+}
+
+.structured-water h2{
+	border-bottom: 1px dotted black;
+	font-family: "museoslab300","Georgia","Times New Roman",serif;
+	color: #0E529B;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.extra{
+	position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.extra, .extra a{
+	color: #0E529B;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.extra a:hover{
+	text-decoration: underline;
+}
+
+.structured-water p{
+	font-size: 16px;
+	margin: 0px 0px 20px;
+	
+}
+
+.testimonial-wrap{
+	position: relative;
+}
+
+.testimonial-wrap h2{
+	border-bottom: 1px dotted black;
+	font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.testimonial {
+    background: none repeat scroll 0 0 #CAE4FF;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.iq-testimonial-wrap {
+    clear: both;
+    overflow: hidden;
+	margin: 0px;
+	border: 0 none;
+    color: #3D3D3D;
+    font-family: "Georgia","Times New Roman",serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+    padding: 0 10px;
+}
+.iq-testimonial-wrap strong{
+	font-weight: bold;
+}
+
+.iq-testimonial-wrap span{
+	float: right;
+    margin-top: 20px;
+}
+
+.featured-products-title{
+	border-bottom: 1px dotted #000000;
+    color: #3D3D3D;
+    font-family: "museoslab500","Georgia","Times New Roman",serif;
+    font-size: 30px;
+	line-height: 34px;
+    margin-bottom: 8px;
+	margin-top: 15px;
+}
+
+.products{
+	margin-top: 40px;
+	clear: both;
+    list-style: none outside none;
+    margin-bottom: 14px;
+    padding: 0;
+}
+
+.products li{
+	margin: 0 0 12px 49px;
+    max-width: 165px;
+    width: 165px;
+	position: relative;
+	margin: 0px 15px;
+}
+
+.products .first{
+	margin-left: 0px;
+}
+
+.products .last{
+	margin-right: 0px;
+}
+
+.product img{
+	border: 0 none;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px #888888 inset !important;
+    margin: 0 !important;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    height: auto;
+    margin: 0 0 8px;
+    transition: all 0.2s ease-in-out 0s;
+    width: 100%;
+}
+
+.product:hover img{
+	opacity: 0.8;	
+}
+
+.product h3{
+	color: #0E529B;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+	padding: 0px;
+    text-transform: uppercase;
+	margin: 5px 0px;
+}
+
+.product .price{
+	color: #3D3D3D;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product .price .amount{
+	color: #0E529B;
+}
+
+.product .add_to_cart_button{
+	background: url("images/bgr-addcart.png") repeat-x;
+    border: 1px solid #021756;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.075) inset, 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    left: auto;
+    line-height: 1em;
+    margin: 5px 0;
+    overflow: visible;
+    padding: 6px 10px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+    width: 95px;
+}
+
+.product .add_to_cart_button:hover{
+	background: url("images/bgr-addcart-hover.png") repeat-x;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+}
+
+.home-sidebar{
+	margin-top: 85px;
+	width: 330px;
+}
+
+.post, .tabs{
+	width: 290px;
+}
+
+.tab-title a{
+	display: block;
+	border: 1px solid #DFDFDF;
+	background-color: #F9F9F9;
+    background-image: none !important;
+    cursor: pointer;
+    float: left;
+    list-style: none outside none !important;
+    margin: 5px 5px 0 0 !important;
+    padding: 3px !important;
+	font-size: 14px;
+}
+
+.active{
+	background: #ccc !important;
+}
+
+.tab-content li a{
+	color: #0E529B !important;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tab-content li:hover a, .tab-content li a:hover{
+	text-decoration: underline;
+}
+
+.tab-content li p{
+	color: #3D3D3D;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+
+#tab1, #tab2, #tab3{
+	margin-top: 10px;
+	height: 300px !important;
+}
+
+
+.scrollup{
+	display: block;
+	position: relative;
+	margin-top: 30px;
+}
+
+.scrollup span{
+	background: url("images/back_to_top.png") no-repeat center center;
+	display: block;
+	width: 73px;
+	height: 74px;	
+	position: absolute;
+	left: 50%;
+	z-index: 9;
+	bottom: -100px;
+	cursor: pointer;
+}
+/*========= ĐỊNH DẠNG BOX .jcarouse ========*/
+.jcarouse { width:290px; }
+.jcarouse ul li{ 
+	display: block;
+    height: auto !important;
+    list-style: none outside none;
+    margin: 15px 0;
+    padding-bottom: 1px;
+	overflow:auto!important;
+}
+.jcarouse ul li a{ display:block; color:#514448;  }
+.jcarouse ul li a:hover{ display:block; color:#DB2E66;  }
+/*---------Footer---------*/
+#footer{
+	height: 278px;
+	background: url("images/footer_bg.png") no-repeat scroll left 20px #FFFFFF;
+	display: block;
+}
+
+.re-menu{
+	padding-top: 160px;
+    position: relative;
+}
+
+.re-menu li:hover a, .re-menu li a:hover{
+	text-decoration: underline;	
+}
+
+.re-menu li a{
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Tahoma,Geneva,sans-serif;
+    font-size: 10px;
+    padding: 0 9px;
+	border-left: 1px solid #fff;
+}
+
+.re-menu li:first-child a{
+	border: none;
+}
+
+.copyright, .copyright-ext {
+    color: #3D3D3D;
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.copyright {
+    margin-top: 25px;
+}
+
+.the_title{
+	border-bottom: 1px dotted #000000;
+    color: #0C57A0;
+    font-family: "museoslab300","Georgia","Times New Roman",serif;
+    font-size: 30px;
+	padding-left: 14px;
+    padding-right: 16px;
+	margin-bottom: 35px;
+}
+
+.faq{
+    min-height: 300px;
+	opacity: 0.9;
+}
+
+.sidebar-nav{
+	background: none repeat scroll 0 0 #0C57A0;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 18px 14px;
+	float: left;
+	margin-right: 14px;
+	width: 205px;
+}
+
+.sidebar-nav li{
+	
+}
+
+.sidebar-nav li a{
+	border-bottom: 1px dotted #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+	background: url("images/nav_bullet.png") left center no-repeat;
+	padding: 10px 0px 10px 10px;
+}
+
+.sidebar-nav li a:hover, .sidebar-nav li:hover a{
+	text-decoration: underline;	
+}
+
+/* FAQ */
+
+.faq .main-content{
+	font-size: 14px;
+    width: 670px;
+	float: left;
+}
+
+.faq .main-content p{
+	margin: 0px 0px 20px;
+	font-weight: 400;
+}
+
+/* Contact Us */
+.cform-content{
+	width: 466px;
+}
+
+.cform-content p{
+	font-family: "myriadproregular";
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+
+.cform{
+	-moz-box-sizing: border-box;
+    border: 1px solid #CACACA;
+    margin-left: 20px;
+    padding: 25px;
+    width: 434px;
+}
+
+.cform p{
+	font-size: 12px;
+    margin-bottom: 8px;
+	font-family: "myriadproregular";
+}
+
+.cform input[type="text"]{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 0 0;
+    color: #777777;
+    display: block;
+    font: 13px "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0 0 20px;
+    max-width: 100%;
+    outline: medium none;
+    padding: 6px 4px;
+	width: 370px;
+}
+
+.cform textarea{
+	width: 370px;
+	margin-bottom: 12px;
+}

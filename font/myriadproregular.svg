@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <title>Free Online Font Converter</title>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-23713237-2']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+    </head>
+    <body>
+		<!-- BuySellAds Ad Code -->
+		<script type="text/javascript">
+		(function(){
+		  var bsa = document.createElement('script');
+			 bsa.type = 'text/javascript';
+			 bsa.async = true;
+			 bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
+		  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+		})();
+		</script>
+		<!-- End BuySellAds Ad Code -->
+		
+        <div id="page">
+            <div id="header">
+                <a href="/" title="Free Font Converter"><img alt="FreeFontConverter.com" src="images/logo.png" height="89" width="408"></a>
+            </div>
+            <div id="featured">
+				<div class="ads">
+					<!-- BuySellAds Zone Code -->
+					<div id="bsap_1275264" class="bsarocks bsap_e5fd188740c66212fa7d529217243b93"></div>
+					<!-- End BuySellAds Zone Code -->
+				</div>
+            </div>
+            <div id="content">
+                <div id="blueBorder">
+                    <div id="innerContent">
+                        <div id="rightBar">
+                            <h2>About Us</h2>
+                            <p>FreeFontConverter.com allows you to quickly convert between many font formats without the hassle of installing any software on your computer.</p>
+                            <p>Our service works on any operating system including Windows, Mac and Linux.</p>
+                            <p>Our font converting service works for all of the common font formats including TrueType (.ttf), OpenType (.oft) and PostScript (.ps).</p>
+                            <p>We can also convert many of the less well known font formats including Suitcase (.suit) and Data Fork (.dfont) fonts.</p>
+                        </div>
+                        <div id="main">
+                            <h1>Free Online Font Converter</h1>
+                            <!--[if lt IE 8]>
+                            <div class="error">You are using an outdated version of Internet Explorer, we reccomend you <a href="http://www.microsoft.com/Windows/internet-explorer/" title="Click here to upgrade to the latest version of IE.">upgrade</a>.</div>
+                            <![endif]-->
+
+                                                        
+<form name="fontConvert" action="/index.php" method="POST" enctype="multipart/form-data">
+
+    <p>You can convert from pfa, pfb, pt3, sfd, ttf, otf, otb, t42, cef, cff, gsf, ttc, svg, ik, mf, dfont, bin, suit and bdf.</p>
+    <div class="form_input">
+        <label for="fontFile">Select a file to convert:</label>
+        <div>
+            <input type="file" name="fontFile" id="fontFile" title="Select a file to convert" />
+        </div>
+    </div>
+
+    <p>Now you just need to select the format that you want to convert your font to.</p>
+
+    <div class="form_input">
+        <label for="outputFormat">Select a format to convert to:</label>
+        <div>
+            <select name="outputFormat" id="outputFormat" title="Select a format to convert to">
+                <option value="ttf">ttf (TrueType)</option>
+                <option value="otf">otf (OpenType)</option>
+                <option value="svg">svg (Scalable Vector Graphics)</option>
+                <option value="pfa">pfa (PostScript)</option>
+                <option value="pfb">pfb (PostScript type 1)</option>
+                <option value="bin">bin (Mac PostScript (pfb) resource in a Mac binary wrapper)</option>
+                <option value="mm.pfa">mm.pfa (PostScript)</option>
+                <option value="mm.pfb">mm.pfb (PostScript type 1)</option>
+                <option value="pt3">pt3 (PostScript type 3)</option>
+                <option value="ps">ps (PostScript type 0)</option>
+                <option value="t42">t42 (PostScript type 42)</option>
+                <option value="cid.t42">cid.t42 (type 42 cid font)</option>
+                <option value="cid">cid (non-otf cid font)</option>
+                <option value="cff">cff (bare cff font)</option>
+                <option value="cid.cff">cid.cff (bare cff cid-keyed font)</option>
+                <option value="sym.ttf">sym.ttf (TrueType file with a symbol (custom) encoding)</option>
+                <option value="ttf.bin">ttf.bin (Mac TrueType resource in a Mac binary wrapper)</option>
+                <option value="dfont">dfont (Mac TrueType resource in a dfont file)</option>
+                <option value="otf.dfont">otf.dfont (Mac OpenType resource in a dfont file)</option>
+            </select>
+        </div>
+    </div>
+    <input type="submit" name="submit" id="convertButton" class="submitButton" value="Convert" >
+</form>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <a href="contact-us.php" title="Contact Us">Contact Us</a> - <a href="http://www.jbench.co.uk" title="www.jbench.co.uk">&copy; JBench.co.uk</a>
+            </div>
+        </div>
+    </body>
+</html>

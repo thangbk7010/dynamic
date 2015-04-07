@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'museoslab300';
+    src: url('museoslab300.eot');
+    src: url('museoslab300.eot?#iefix') format('embedded-opentype'),
+         url('museoslab300.woff') format('woff'),
+         url('museoslab300.ttf') format('truetype'),
+         url('museoslab300.svg#museoslab300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museoslab500';
+    src: url('museoslab500.eot');
+    src: url('museoslab500.eot?#iefix') format('embedded-opentype'),
+         url('museoslab500.woff') format('woff'),
+         url('museoslab500.ttf') format('truetype'),
+         url('museoslab500.svg#museoslab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriadproregular';
+    src: url('myriadproregular.eot');
+    src: url('myriadproregular.eot?#iefix') format('embedded-opentype'),
+         url('myriadproregular.woff') format('woff'),
+         url('myriadproregular.ttf') format('truetype'),
+         url('myriadproregular.svg#myriadproregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
